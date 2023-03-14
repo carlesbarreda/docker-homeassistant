@@ -83,6 +83,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: |
+            stable
             latest
           labels: |
             org.opencontainers.image.authors=${{ env.AUTHORS }}
