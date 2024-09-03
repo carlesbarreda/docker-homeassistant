@@ -133,7 +133,7 @@ jobs:
         run: grep -e ^PHP80.*= .env.build >> $GITHUB_ENV
 
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           path: /tmp
 
